@@ -1,0 +1,56 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Courier New, Courier, monospace;
+}
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #82AC9F;
+    color: #0D1F22;
+    border-radius: 25px;
+    border-bottom: 15px solid #94778B;
+    border-left: 15px solid #94778B;
+    animation-name: background-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.avatar {
+    width: 175px;
+    border: 10px dashed #62732F
+}
+
+
+
+.card-text {
+    margin: 50px auto;
+}
+
+@keyframes background-animation {
+  from {background-color: #82AC9F;}
+  to {background-color: #94778B;}
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
